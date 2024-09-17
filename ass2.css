@@ -1,0 +1,229 @@
+@media (max-width: 780px) {
+    .hero{
+        height: 80vh;
+    }
+    .galll,.venue,.contact{
+        height: 50vh;
+    }
+    .services{
+        height: 60vh;
+    }
+    .txt2e{
+        font-size: 100px;
+        font-weight: 550;
+    }
+
+    .txt2{
+        font-size: 70px;
+        font-weight: 550;
+    
+    }
+    .txt3{
+        font-size: 25px;
+        font-weight: 500;
+    
+    }
+    .sect1{
+        width: 100%;
+        padding: 100px 10px 100px 10px;
+
+    }
+    .grand{
+        height: 65vh;
+    }
+    .grand-content{
+        width: 100%;
+        padding-left: 20px;
+    }
+    .txt8{
+        font-size: 40px;
+    }
+    .txt6{
+        font-size: 13px;
+    }
+    .txt5{
+        font-size: 35px;
+    }
+    .txt10{
+        font-size: 25px;
+    }
+    .destination{
+        width: 100%;
+        padding: 100px 10px 100px 10px;
+    }
+    .gallery{
+        width: 100%;
+        padding: 100px 10px 100px 10px;
+    }
+    .ending,.events{
+        grid-template-columns: 1fr;
+    }
+    .servecard{
+        grid-template-columns: repeat(2,45%);
+        /* column-gap: -50px; */
+
+    }
+    .servswdp{
+        height: 30vh;
+    }
+    .swd{
+        font-size: 20px;
+    }
+    .galleryimg1{
+        padding: 80px 20px 80px 20px;
+        background-color: #f6f6f6;
+    
+    }
+    .caps{
+        font-size: 35px;
+    }
+    .smalls{
+        font-size: 15px;
+    }
+    .venueDes{
+        grid-template-columns: repeat(2, 45%);
+    }
+    .contactsec{
+        grid-template-columns: repeat(2,45%);
+    }
+    .contac2tsec{
+        grid-template-columns:repeat(3, 31%);
+    }
+    
+
+}
+@media (max-width: 600px){
+    .hero{
+        height: 97vh;
+    }
+    .galll,.venue,.contact,.services{
+        height: 60vh;
+    }
+    .txt2e{
+        font-size: 40px;
+        padding-top: 15px;
+        font-weight: 550;
+    }
+    .txt2{
+        padding-top: 15px;
+        font-size: 40px;
+    }
+    .txt3{
+        font-size: 20px;
+        font-weight: 500;
+    
+    }
+    .sect1{
+        width: 100%;
+        padding: 100px 10px 100px 10px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'A'
+        'B'
+        'C'
+        'D'
+        'E';
+
+    }
+    .sect1itm1,.sect1itm2,.sect1itm3,.sect1itm4,.sect1itm5{
+        text-align: center;
+        /* display: flex; */
+        /* flex-direction: column;
+        justify-items: center; */
+
+    }
+    .sect1itm3,.sect1itm4,.sect1itm5{
+         display: grid; 
+        /* flex-direction: column; */
+        grid-template-columns: 1fr;
+        justify-content: center;
+        justify-items: center;
+    }
+    .grand-content{
+        width: 100%;
+        text-align: center;
+        padding:0px 20px 0px 20px;
+    }
+    .destination{
+        grid-template-columns: 1fr;
+        grid-template-areas:'X'
+        'Y'
+        'V' 
+        'Z' ;
+        text-align: center;
+    }
+    .txt12{
+        font-size: 22px;
+    }
+    .gallery{
+        text-align: center;
+    }
+    .galleryimg{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .events>div>img{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .events{
+        padding:0px;
+    }
+    .events1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .abtgallery{
+        grid-template-columns: 1fr;
+    }
+    .ending1{
+        background-color: #ff4362;
+        padding: 50px;
+        text-align: center;
+        color: white;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer p{
+        padding: 10px;
+    }
+    .servecard{
+        grid-template-columns: 1fr;
+        /* column-gap: -50px; */
+
+    }
+    .servswdp{
+        height: 50vh;
+        text-align: center;
+    }
+    .swd{
+        font-size: 20px;
+    }
+    .galleryimg1{
+        grid-template-columns: 1fr;
+    
+    }
+    .videos{
+        grid-template-columns: 1fr;
+    }
+    .venueDes{
+        grid-template-columns: 1fr;
+        grid-template-areas: 'a' 'b'
+        'c'  'd'
+        'e';
+    }
+    .contactsec{
+        grid-template-columns: 1fr;
+        grid-template-areas: 'a' 'b' 'c';
+    }
+    .contactsec1,.contactsec2{
+        padding: 20px;
+        text-align: center;
+    }
+    .contac2tsec{
+        grid-template-columns:1fr;
+        justify-items:normal;
+         text-align: center;
+    }
+}
