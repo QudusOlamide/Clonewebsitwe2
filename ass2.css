@@ -200,7 +200,7 @@
     .swd{
         font-size: 20px;
     }
-    .galleryimg1{
+    .galleryimg1,.galleryimg{
         grid-template-columns: 1fr;
     
     }
@@ -225,5 +225,9 @@
         grid-template-columns:1fr;
         justify-items:normal;
          text-align: center;
+    }
+    .monica{
+        padding: 50px;
+        height: 30vh;
     }
 }
